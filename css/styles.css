@@ -2,6 +2,7 @@ body{
     background-color: black;
 }
 
+
 nav {
     margin: 0;
     overflow: hidden;
@@ -39,9 +40,73 @@ nav li a {
     font-size: 25px;
 }
 
+/* Start Welcome Section */
 #welcomeSection{
-position: relative;
-width: 100%;
-height: 500px;
 
+background: url(https://raw.githubusercontent.com/brandoncoplen/Portfolio/main/images/deskimg.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+display: flex;
+contain: content;
+}
+
+
+#deskimg{
+    width: 100%;
+    height: auto;
+}
+
+#welcome{
+color: white;
+font-size: 500%;
+margin-left: 20%;
+margin-top: 35%;
+position: inherit;
+
+}
+/* End Welcome Section */
+
+
+/* Start About Me Section */
+#aboutSection{
+    width: 100%;
+    height: 500px;
+    /* display: inline-flex; */
+}
+
+/* #aboutMeTitle{
+
+
+} */
+
+#abimg{
+width: 20%;
+height: 70%;
+object-fit: cover;
+display: block;
+margin: 2%;
+border-radius: 5%;
+}
+
+/* End Aboput Me Section */
+
+.sectionHeader{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 2%;
+    color: white;
+    display: block;
+    background-color: #333;
+}
+
+
+/* Footer */
+footer{
+    text-align: center;
+    color: white;
+    margin: 1%;
+    
 }
