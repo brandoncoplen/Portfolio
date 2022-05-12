@@ -111,3 +111,20 @@ footer{
     margin: 1%;
     
 }
+
+
+#watermark
+{
+ position:fixed;
+ bottom: .01px;
+ top: 5px;
+ left:300px;
+ right: 5px;
+ opacity:0.5;
+ z-index:99;
+ color:white;
+ transform: rotate(45deg);
+ font-size: 75px;
+ 
+ 
+}
