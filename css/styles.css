@@ -86,12 +86,51 @@ position: inherit;
 width: 20%;
 height: 70%;
 object-fit: cover;
-display: block;
+display: inline;
 margin: 2%;
 border-radius: 5%;
 }
 
-/* End Aboput Me Section */
+#aboutcard{
+    color: white;
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+/* End About Me Section */
+
+/* Start Education Section */
+#edcard{
+display: block;
+align-items: center;
+text-align: center;
+}
+/* End Education Section */
+
+/* Start Skills Section */
+#skillsSection{
+    background-color: white;
+}
+
+.skillLogo{
+    color: black;
+    text-align: center;
+    contain: content;
+}  
+
+.skillLogo img{
+    height: 60%;
+}
+/* End Skills Section */
+
+.card-holder{
+    /* other base styles go here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .sectionHeader{
     text-align: center;
@@ -103,6 +142,17 @@ border-radius: 5%;
     background-color: #333;
 }
 
+.card{
+contain: content;
+color: white;
+margin: auto;
+
+}
+
+strong{
+    font-weight: bold;
+    
+}
 
 /* Footer */
 footer{
@@ -127,4 +177,21 @@ footer{
  font-size: 75px;
  
  
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+
+
+img{
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: contain;
 }
