@@ -284,8 +284,9 @@ height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0%;
+    margin-bottom: 0%;
     background-color: #557a95;
-    top: 55px;
+    top: 6rem;
     position:sticky;
     z-index: 400;
 
